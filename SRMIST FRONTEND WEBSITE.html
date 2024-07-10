@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRMIST Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/> 
+    <style>
+        /* Custom CSS for cards and animations */
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .btn-yellow {
+            background-color: yellow;
+            border-color: yellow;
+            color: black;
+        }
+    </style>
+</head> 
+
+<body> 
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./">
+                <img src="https://sesi.in/assets/img/landing/insti/7.png" alt="SRMIST logo" style="width:40px;">
+                SRMIST
+            </a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Student</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Faculty & Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Alumni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Visitors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Examinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Campuses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Academics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Engineering & Technology</a></li> 
+                            <li><a class="dropdown-item" href="#">Management</a></li> 
+                            <li><a class="dropdown-item" href="#">Science & Humanities</a></li> 
+                            <li><a class="dropdown-item" href="#">Law</a></li> 
+                            <li><a class="dropdown-item" href="#">Agricultural Sciences</a></li> 
+                            <li><a class="dropdown-item" href="#">Distance Education</a></li> 
+                            <li><a class="dropdown-item" href="#">Online Education</a></li> 
+                            <li><a class="dropdown-item" href="#">Medicine</a></li> 
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form id="contactForm" class="d-flex">
+                    <input class="form-control me-2" type="text" id="name" name="name" placeholder="Name" required>
+                    <input class="form-control me-2" type="email" id="email" name="email" placeholder="Email" required>
+                    <textarea class="form-control me-2" id="message" name="message" placeholder="Message" rows="1" required></textarea>
+                    <button class="btn btn-outline-success" type="submit" id="submitBtn" disabled>Submit</button>
+                </form>
+            </div>
+        </div>
+    </nav> 
+
+    <!-- MAIN CONTENT -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/Hf4kUE8j3Do/maxresdefault.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="SRMIST">SRMIST</h5>
+                        <p class="card-text">SRM Institute of Science and Technology  is one of the top ranking universities in India with over 52,000 full time students and more than 3200 faculty across all the campuses – Kattankulathur, Ramapuram, Vadapalani Campus – all in and around Chennai, Tiruchirappalli (in TN), Modinagar (in UP) & Sonepat (in Haryana) – both of which are located near Delhi NCR, Amaravati (in AP), Gangtok (in Sikkim) – offering a wide range of undergraduate, postgraduate and doctoral programs in six Faculties – Engineering & Technology, Management, Medicine & Health sciences, Science & Humanities, Law and Agricultural Sciences</p>
+                        <a href="#" class="btn btn-yellow">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/4c7Ob4pDYMQ/maxresdefault.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SRMIST Sq feet</h5>
+                        <p class="card-text">The 43 lakh sq ft built-up area includes modern infrastructure and facilities, as well as sculptures and paintings that serve as sources of inspiration and comfort. Browse Courses at SRM University Chennai: All SRM University Chennai Courses & Fees.</p>
+                        <a href="#" class="btn btn-yellow">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2022/06/SRM-Placement-Record-e1654678280742.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">UB</h5>
+                        <p class="card-text">Learning is an enjoyable experience here, with experienced faculty, inspiring libraries and stimulating discussion rooms, large playgrounds and state-of-the-art labs. All in all about 42 blocks sprawling across 250 acres of greenery filled campus with not one, but two lakes and wonderful walkways.</p>
+                        <a href="#" class="btn btn-yellow">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2022/02/TECH-TOWER-1-copy-768x617.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ECE</h5>
+                        <p class="card-text">B.Tech. in Electronics and Communication Engineering is one of the leading undergraduate programs at the SRM Institute of Science and Technology, with a distinction for scientific rigor and development. The B.Tech. (ECE) program at the Kattankulathur campus of SRMIST is accredited by the National Board of Accreditation (NBA), the Government of India, and the Engineering Accreditation Commission (EAC) of ABET, USA (https://www.abet.org).</p>
+                        <a href="#" class="btn btn-yellow">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2022/09/18th-Convocation-srmist-10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. T.P Ganesan Auditorium</h5>
+                        <p class="card-text">The Dr. T. P. Ganesan Auditorium at SRMIST has a capacity of 3000 viewer’s seats and 100 stage seats. It is fully media equipped with LCD Projectors and HD Sounds System. The hall is fully air-conditioned (centralized).The building also has two Mini Auditoriums under the ramp portion each with a capacity of 250 viewers seats and 20 stage seats (Mini Hall – I & II). All the halls are fully air-conditioned.</p>
+                        <a href="#" class="btn btn-yellow">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/kSVGb_4nHQo/maxresdefault.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SRM milan 2023</h5>
+                        <p class="card-text">Milan (Sanskrit for unification/coming together) is the National-Level Cultural Festival organized by the Directorate of Student Affairs of SRM Institute of Science and Technology.</p>
+                        <a href="#" class="btn btn-yellow">Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
+    <script>
+        // JavaScript for form validation
+        document.addEventListener('DOMContentLoaded', function() {
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const messageInput = document.getElementById('message');
+            const submitButton = document.getElementById('submitBtn');
+
+            // Function to check if the form inputs are valid
+            function checkInputs() {
+                const nameValue = nameInput.value.trim();
+                const emailValue = emailInput.value.trim();
+                const messageValue = messageInput.value.trim();
+
+                if (nameValue !== '' && emailValue !== '' && isValidEmail(emailValue) && messageValue !== '') {
+                    submitButton.disabled = false;
+                } else {
+                    submitButton.disabled = true;
+                }
+            }
+
+            // Function to validate email format
+            function isValidEmail(email) {
+                return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+            }
+
+            // Event listeners for input validation
+            nameInput.addEventListener('keyup', checkInputs);
+            emailInput.addEventListener('keyup', checkInputs);
+            messageInput.addEventListener('keyup', checkInputs);
+
+            // Additional validation for email format on blur
+            emailInput.addEventListener('blur', function() {
+                const emailValue = emailInput.value.trim();
+                if (emailValue !== '' && !isValidEmail(emailValue)) {
+                    alert('Please enter a valid email address.');
+                    emailInput.focus();
+                }
+            });
+
+            // Form submission logic
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent the form from submitting
+
+                const nameValue = nameInput.value.trim();
+                const emailValue = emailInput.value.trim();
+                const messageValue = messageInput.value.trim();
+
+                // Perform final validation before submission
+                if (nameValue === '' || emailValue === '' || !isValidEmail(emailValue) || messageValue === '') {
+                    alert('Please fill out all fields correctly before submitting.');
+                    return;
+                }
+
+                // Process the form data (for demonstration, log to console)
+                console.log('Name:', nameValue);
+                console.log('Email:', emailValue);
+                console.log('Message:', messageValue);
+
+                // Optionally: Send data to server or perform further actions
+
+                // Reset the form
+                document.getElementById('contactForm').reset();
+                submitButton.disabled = true; // Disable submit button after submission
+            });
+        });
+    </script>
+</body> 
+</html>
